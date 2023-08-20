@@ -1,0 +1,12 @@
+C:\Users\norbe\Documents\Blackhards\ServerMicroServices\blackhards-game-sale\HotelCreatedEventHandler\bin\Debug\net6.0\HotelCreatedEventHandler.deps.json
+C:\Users\norbe\Documents\Blackhards\ServerMicroServices\blackhards-game-sale\HotelCreatedEventHandler\bin\Debug\net6.0\HotelCreatedEventHandler.dll
+C:\Users\norbe\Documents\Blackhards\ServerMicroServices\blackhards-game-sale\HotelCreatedEventHandler\bin\Debug\net6.0\HotelCreatedEventHandler.pdb
+C:\Users\norbe\Documents\Blackhards\ServerMicroServices\blackhards-game-sale\HotelCreatedEventHandler\obj\Debug\net6.0\HotelCreatedEventHandler.csproj.AssemblyReference.cache
+C:\Users\norbe\Documents\Blackhards\ServerMicroServices\blackhards-game-sale\HotelCreatedEventHandler\obj\Debug\net6.0\HotelCreatedEventHandler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\norbe\Documents\Blackhards\ServerMicroServices\blackhards-game-sale\HotelCreatedEventHandler\obj\Debug\net6.0\HotelCreatedEventHandler.AssemblyInfoInputs.cache
+C:\Users\norbe\Documents\Blackhards\ServerMicroServices\blackhards-game-sale\HotelCreatedEventHandler\obj\Debug\net6.0\HotelCreatedEventHandler.AssemblyInfo.cs
+C:\Users\norbe\Documents\Blackhards\ServerMicroServices\blackhards-game-sale\HotelCreatedEventHandler\obj\Debug\net6.0\HotelCreatedEventHandler.csproj.CoreCompileInputs.cache
+C:\Users\norbe\Documents\Blackhards\ServerMicroServices\blackhards-game-sale\HotelCreatedEventHandler\obj\Debug\net6.0\HotelCreatedEventHandler.dll
+C:\Users\norbe\Documents\Blackhards\ServerMicroServices\blackhards-game-sale\HotelCreatedEventHandler\obj\Debug\net6.0\refint\HotelCreatedEventHandler.dll
+C:\Users\norbe\Documents\Blackhards\ServerMicroServices\blackhards-game-sale\HotelCreatedEventHandler\obj\Debug\net6.0\HotelCreatedEventHandler.pdb
+C:\Users\norbe\Documents\Blackhards\ServerMicroServices\blackhards-game-sale\HotelCreatedEventHandler\obj\Debug\net6.0\ref\HotelCreatedEventHandler.dll

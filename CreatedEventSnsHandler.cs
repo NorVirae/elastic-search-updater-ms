@@ -1,23 +1,30 @@
-﻿using Amazon.DynamoDBv2;
+﻿using Amazon;
+using Amazon.DynamoDBv2;
 using Amazon.DynamoDBv2.DocumentModel;
+using Amazon.Lambda.Core;
+using Amazon.Lambda.Serialization.SystemTextJson;
 using Amazon.Lambda.SNSEvents;
 using HotelCreatedEventHandler.Models;
 using Nest;
 using System.Text.Json;
 
+
+[assembly: LambdaSerializer(typeof(DefaultLambdaJsonSerializer))]
 namespace HotelCreatedEventHandler
 {
     public class CreatedEventSnsHandler
     {
         public async Task Handler(SNSEvent snsEvent)
         {
-            var dbClient = new AmazonDynamoDBClient();
-            var table = Table.LoadTable(dbClient, "hotel-created-event");
-
             var host = Environment.GetEnvironmentVariable("host");
             var userName = Environment.GetEnvironmentVariable("userName");
             var password = Environment.GetEnvironmentVariable("password");
             var indexName = Environment.GetEnvironmentVariable("indexName");
+
+            var dbClient = new AmazonDynamoDBClient(RegionEndpoint.GetBySystemName("eu-north-1"));
+            var table = Table.LoadTable(dbClient, "hotel-created-event");
+
+            
 
 
             var connSettings = new ConnectionSettings(new Uri(host));
