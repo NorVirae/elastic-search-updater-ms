@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "qaNlQ6R88Cfh6hPO3QfwqM+C/Genyh6ZZwDtvnOsWdb2R6YHOtR6oYO9/BFCPBPB8lUsUzOyXT3uXf38lxzGLg==",
+  "dgSpecHash": "wJ6WIQQw43bsD723k3cQ5vB7J/fuRtUujp29xZnQNT7rYWsE7IN2xqmlo1Hv2Nz9IMdjDguNiachBZXpsL+feA==",
   "success": true,
   "projectFilePath": "C:\\Users\\norbe\\Documents\\Blackhards\\ServerMicroServices\\blackhards-game-sale\\HotelCreatedEventHandler\\HotelCreatedEventHandler.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\norbe\\.nuget\\packages\\amazon.lambda.snsevents\\2.0.0\\amazon.lambda.snsevents.2.0.0.nupkg.sha512",
+    "C:\\Users\\norbe\\.nuget\\packages\\awssdk.core\\3.7.201.1\\awssdk.core.3.7.201.1.nupkg.sha512",
+    "C:\\Users\\norbe\\.nuget\\packages\\awssdk.dynamodbv2\\3.7.200.22\\awssdk.dynamodbv2.3.7.200.22.nupkg.sha512",
+    "C:\\Users\\norbe\\.nuget\\packages\\awssdk.simplenotificationservice\\3.7.200.21\\awssdk.simplenotificationservice.3.7.200.21.nupkg.sha512",
+    "C:\\Users\\norbe\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
+    "C:\\Users\\norbe\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\norbe\\.nuget\\packages\\nest\\7.17.5\\nest.7.17.5.nupkg.sha512",
+    "C:\\Users\\norbe\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\norbe\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

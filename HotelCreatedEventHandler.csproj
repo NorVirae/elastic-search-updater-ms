@@ -6,4 +6,12 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Amazon.Lambda.SNSEvents" Version="2.0.0" />
+    <PackageReference Include="AWSSDK.Core" Version="3.7.201.1" />
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.200.22" />
+    <PackageReference Include="AWSSDK.SimpleNotificationService" Version="3.7.200.21" />
+    <PackageReference Include="NEST" Version="7.17.5" />
+  </ItemGroup>
+
 </Project>
