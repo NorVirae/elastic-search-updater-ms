@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\norbe\\Documents\\Blackhards\\ServerMicroServices\\blackhards-game-sale\\HotelCreatedEventHandler\\HotelCreatedEventHandler.csproj": {}
+    "C:\\Users\\norbe\\Documents\\Projs\\microservices\\HotelCreatedEventHandler\\HotelCreatedEventHandler.csproj": {}
   },
   "projects": {
-    "C:\\Users\\norbe\\Documents\\Blackhards\\ServerMicroServices\\blackhards-game-sale\\HotelCreatedEventHandler\\HotelCreatedEventHandler.csproj": {
+    "C:\\Users\\norbe\\Documents\\Projs\\microservices\\HotelCreatedEventHandler\\HotelCreatedEventHandler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\norbe\\Documents\\Blackhards\\ServerMicroServices\\blackhards-game-sale\\HotelCreatedEventHandler\\HotelCreatedEventHandler.csproj",
+        "projectUniqueName": "C:\\Users\\norbe\\Documents\\Projs\\microservices\\HotelCreatedEventHandler\\HotelCreatedEventHandler.csproj",
         "projectName": "HotelCreatedEventHandler",
-        "projectPath": "C:\\Users\\norbe\\Documents\\Blackhards\\ServerMicroServices\\blackhards-game-sale\\HotelCreatedEventHandler\\HotelCreatedEventHandler.csproj",
+        "projectPath": "C:\\Users\\norbe\\Documents\\Projs\\microservices\\HotelCreatedEventHandler\\HotelCreatedEventHandler.csproj",
         "packagesPath": "C:\\Users\\norbe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\norbe\\Documents\\Blackhards\\ServerMicroServices\\blackhards-game-sale\\HotelCreatedEventHandler\\obj\\",
+        "outputPath": "C:\\Users\\norbe\\Documents\\Projs\\microservices\\HotelCreatedEventHandler\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\norbe\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -86,6 +86,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }

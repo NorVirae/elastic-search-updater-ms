@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Ve3nZhia9c2mMRbRfUKUOwGPetGDrqqAhO44wn0u4TPfPNEiY3TLbBPujucxfZhzZwD7GNsPbCmhOEW+JILLg==",
+  "dgSpecHash": "7UA8S6Ps3XpgfNkKq3WoyoNBOeviFji2UOjoQfLFx0sdvIaw8TpE5zrYZaS1w6rTvawLJzbkaIDu12TAtNnljQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\norbe\\Documents\\Blackhards\\ServerMicroServices\\blackhards-game-sale\\HotelCreatedEventHandler\\HotelCreatedEventHandler.csproj",
+  "projectFilePath": "C:\\Users\\norbe\\Documents\\Projs\\microservices\\HotelCreatedEventHandler\\HotelCreatedEventHandler.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\norbe\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
     "C:\\Users\\norbe\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.1\\amazon.lambda.serialization.systemtextjson.2.3.1.nupkg.sha512",

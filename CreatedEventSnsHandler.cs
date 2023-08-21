@@ -27,6 +27,8 @@ namespace HotelCreatedEventHandler
             
 
 
+
+
             var connSettings = new ConnectionSettings(new Uri(host));
             connSettings.BasicAuthentication(userName, password);
             connSettings.DefaultIndex(indexName);
@@ -44,7 +46,7 @@ namespace HotelCreatedEventHandler
                 var eventId = eventRecord.Sns.MessageId;
                 var foundItem = await table.GetItemAsync(eventId);
 
-                if (foundItem != null)
+                if (foundItem == null)
                 {
                     await table.PutItemAsync(new Document
                     {
@@ -54,9 +56,12 @@ namespace HotelCreatedEventHandler
                 var hotel = JsonSerializer.Deserialize<HotelCreatedEvent>(eventRecord.Sns.Message);
 
 
-                await esclient.IndexDocumentAsync<HotelCreatedEvent>(hotel);
+                var result = await esclient.IndexDocumentAsync<HotelCreatedEvent>(hotel);
+                Console.WriteLine("Huli ha " + result);
 
             }
+            Console.WriteLine("Got here and actually finished");
+
         }
     }
 }
